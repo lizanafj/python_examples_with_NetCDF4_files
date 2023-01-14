@@ -8,18 +8,26 @@ These examples are supplementary material of the following scientific article:
 
 ## Overview of examples
 
+Main libraries used: netCDF4, xarray, numpy, scipy, statsmodels, Basemap, matplotlib, seaborn
 
-Working with an individual netCDF4 file: 
+Working with an individual netCDF4 file. 
 
-	-(A) description 
+	-(1) Read, analysis, operate and visualise netCDF4 file. 
 
-Working with an ensemble of netCDF4 files: 
+	-(2) Read, modify and write netCDF4 file - using netCDF4 library. 
 
-	-(1) description 
+	-(3) Read, modify and write netCDF4 file - using xarray library. 
 
-	-(2) description
+	-(4) Function to change longitude from 0-360 to -180-180.
 
-	-(3) description 
+	-(5) Function to find the index of the point closest to a specific lat/long.
+
+
+
+Working with an ensemble of netCDF4 files. 
+
+	-(a) read, analysis and plot ensemble of netCDF4 files using xarray
+
 
 
 
