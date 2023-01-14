@@ -46,25 +46,23 @@ print("....importing libraries")
 
 import netCDF4
 from netCDF4 import Dataset,num2date # or from netCDF4 import Dataset as NetCDFFile
-import numpy as np
-import shutil
-import dateutil.parser
 
 import xarray
 
-import matplotlib.pyplot as plt    
-import seaborn as sns
-
+import numpy as np
+import numpy.ma as ma
 import pandas as pd
+
+import dateutil.parser
+
 from statsmodels.distributions.empirical_distribution import ECDF
 from scipy.stats import gamma, norm
 from scipy.signal import detrend
-import xarray as xr
-import numpy.ma as ma
+
 from statsmodels.distributions.empirical_distribution import StepFunction
 
-from sys import exit
-
+import matplotlib.pyplot as plt    
+import seaborn as sns
 print("All libraries imported")
 
 
